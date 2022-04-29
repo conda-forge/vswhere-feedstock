@@ -1,4 +1,4 @@
-{% set version = "3.0.1" %}
+{% set version = "3.0.2" %}
 
 package:
   name: vswhere
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/microsoft/vswhere/releases/download/{{ version }}/vswhere.exe
-  sha256: fe014fab79c8693c0fc5934ad462451fdc22e81d17eea6635ca50d4f6fe8d708
+  sha256: 23c5ceff3487fe06dd76dd6edfb28a4a99bbf9c7d59c2fd7e099449ad6039964
 
 build:
   number: 0
