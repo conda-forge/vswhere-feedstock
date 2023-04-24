@@ -1,11 +1,11 @@
-About vswhere
-=============
+About vswhere-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/vswhere-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/microsoft/vswhere
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/vswhere-feedstock/blob/main/LICENSE.txt)
 
 Summary: CLI tool to locate Visual Studio 2017 and newer installations
 
