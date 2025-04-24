@@ -16,7 +16,6 @@ build:
   # not seem like thats going to happen: 
   # https://github.com/microsoft/vswhere/issues/306
   noarch: generic
-  script: mkdir -p $PREFIX/Library/bin/; mv vswhere.exe $_
 
 requirements:
   run:
@@ -24,7 +23,7 @@ requirements:
   
 tests:
   - package_contents:
-      files: 
+      files:
         - Library/bin/vswhere.exe
 
 about:
