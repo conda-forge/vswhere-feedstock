@@ -25,6 +25,8 @@ tests:
   - package_contents:
       files:
         - Library/bin/vswhere.exe
+  - script:
+      - vswhere
 
 about:
   homepage: https://github.com/microsoft/vswhere
